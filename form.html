@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <link rel="stylesheet" href="form.css"><!--* is known as universal selector-->
+    <body>
+        
+        <form action="">
+            
+            
+            <h1>Payment Form</h1>
+            <h2>User Details</h2>
+            
+
+            <p> Name : <input type="text" placeholder="Arnab Paul"> </p>
+            <fieldset>
+                <legend>Gender</legend>
+                Male<input type = "radio" name = "Gender" id ="Male">
+                Female<input type = "radio" name = "Gender" id ="Female">
+                Others<input type = "radio" name = "Gender" id ="Others">
+            </fieldset>
+            <p>Address : <textarea name="address" id="address" cols="100" rows="8" placeholder="use only road name"></textarea> </p>
+            <p>Email : <input type="text" name="Email" id="name" placeholder="arnab2181@gmail.com"> </p>
+            <p>Pincode :<input type="number" name="Pincode" id="Pincode" placeholder="712258"> </p>
+
+            <h2>Payment Information</h2>
+            <p>Card Type :<select name="card_type" id="card_type"></p>
+            <option value="">-Select Card</option>
+            <option value="NEFT">NEFT</option>
+            <option value="Netbanking">Netbanking</option>
+            <option value="VISA/Mastercard">VISA/Mastercard</option>
+            </select>
+        
+
+        
+
+            <h2>NEFT</h2>
+
+            <p>amount : <input type="number" name="amount" id="amount" placeholder="XXXXX/-"> </p>
+            <p>account number : <input type="number" name="account number" id="account number" placeholder="XXXXXXXXXXXX"> </p>
+            <p>Bank Name : <input type="text" name="Bank Name" id="Bank Name" placeholder="e.g. STATE BANK OF INDIA"> </p>
+            <p>Beneficiary Name  : <input type="text" name="Beneficiary Name" id="Beneficiary Name" placeholder="Arnab Paul"> </p>
+            <p>Receiver Detalils(if any) : <input type="text" name="Receiver Detalils(if any)" id="Receiver Detalils(if any)" placeholder="e.g. name of the receiver or address or anything else"> </p>
+
+            <h2>Netbanking</h2>
+
+            <p>account number : <input type="number" name="account number" id="account number" placeholder="XXXXXXX"> </p>
+            <p>CIF number : <input type="number" name="CIF number" id="CIF number" placeholder="1234567890"> </p>
+            <p>branch code : <input type="number" name="branch code" id="branch code" placeholder="e.g. IFSCXXXXXXXXXXXXXXXXXXX"> </p>
+            <p>Beneficiary Name  : <input type="text" name="Beneficiary Name" id="Beneficiary Name" placeholder="e.g. ARNAB PAUL"></p>
+            <p> Country : <input type="text" name="Country" id="Country" placeholder="INDIA"></p>
+            <p>mobile number : <input type="number" name="mobile number" id="mobile number" placeholder="7044495862"> </p>
+            <p>Captcha : <input type="number" name=" Captcha" id="number" placeholder="XXX"> </p>
+
+            <h2>Visa/Mastercard</h2>
+
+            <p>Card Number : <input type="number" name="Card Number" id="Card Number"></p>
+            <p>Expiration Date : <input type="date" name="Expiration Date" id="Expiration Date"></p>
+            <p>Card Holders Name : <input type="text" name="Card Holders Name" id="Card Holders Name"></p>
+            <p>CVV : <input type="number" name="CVV" id="CVV"></p>
+
+            <p><input type="submit" name="Pay Now" id="Pay Now"></p>
+
+        </form>
+        </div>
+        
+
+    </body>
+</html> 
